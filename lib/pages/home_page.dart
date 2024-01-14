@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_app/widgets/container1.dart';
 import 'package:web_app/widgets/navbar.dart';
 
 import '../utils/constants.dart';
@@ -20,7 +21,9 @@ class _homePgState extends State<homePg> {
        child: Container(
         child: const Column(
           children: [
-           navbar()
+           navbar(),
+           SizedBox(height: 16,),
+           container1()
         ]),
        ),
      ),

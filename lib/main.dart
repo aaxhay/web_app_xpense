@@ -13,7 +13,7 @@ class myApp extends StatelessWidget {
       title: 'Xpense',
       debugShowCheckedModeBanner: false,
         theme: ThemeData(
-          brightness: Brightness.dark,
+          brightness: Brightness.light,
           fontFamily: 'HindSiliguri',
           primaryColor: appColors.primaryColor,
         ),

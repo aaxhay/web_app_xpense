@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:web_app/utils/buttonstyle.dart';
 import 'package:web_app/utils/color.dart';
+import 'package:web_app/utils/constants.dart';
 
 class navbar extends StatefulWidget {
   const navbar({super.key});
@@ -77,7 +78,7 @@ class _navbarState extends State<navbar> {
     return Container(
     width: 110,
     decoration: BoxDecoration(
-      image: new DecorationImage(image: AssetImage('assets/image/logo.png'),),
+      image: new DecorationImage(image: AssetImage(logo),),
     ),
     );
   }

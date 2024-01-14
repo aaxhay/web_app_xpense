@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:web_app/widgets/container1.dart';
+import 'package:web_app/widgets/container2.dart';
 import 'package:web_app/widgets/navbar.dart';
 
 import '../utils/constants.dart';
@@ -23,7 +24,9 @@ class _homePgState extends State<homePg> {
           children: [
            navbar(),
            SizedBox(height: 16,),
-           container1()
+           container1(),
+           SizedBox(height: 50,),
+           container2()
         ]),
        ),
      ),

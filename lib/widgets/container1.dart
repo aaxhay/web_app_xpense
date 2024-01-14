@@ -22,7 +22,9 @@ class _container1State extends State<container1> {
   Widget mobileContainer1() {
     return Container(
       margin: const EdgeInsets.symmetric(horizontal: 10),
-      child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.center,
+        mainAxisAlignment: MainAxisAlignment.center, children: [
         Container(
           height: 500,
           decoration: const BoxDecoration(
@@ -32,9 +34,9 @@ class _container1State extends State<container1> {
           height: 15,
         ),
         Text(
-          "Track your expense\nto save money",
+          "Track your\nexpense to\nsave money",
           style: TextStyle(
-              fontSize: w! / 10, height: 1.1, fontWeight: FontWeight.bold),
+              fontSize: w! / 20, height: 1.2, fontWeight: FontWeight.bold),
         ),
         Text(
           "helps you to organize your income and expenses",
@@ -44,6 +46,7 @@ class _container1State extends State<container1> {
           height: 20,
         ),
         Row(
+          crossAxisAlignment: CrossAxisAlignment.center,
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // ignore: avoid_unnecessary_containers
